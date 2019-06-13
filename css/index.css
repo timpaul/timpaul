@@ -9,6 +9,7 @@
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
+  --black: #000
 }
 * {
   box-sizing: border-box;
@@ -19,7 +20,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Inter', sans-serif;
-  color: var(--darkgray);
+  color: var(--black);
   background-color: var(--white);
 }
 
@@ -52,7 +53,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
+  background-color: var(--black);
 }
 header:after {
   content: "";
@@ -132,6 +133,10 @@ pre {
 .home :link:not(:hover) {
   text-decoration: none;
 }
+.home :link{ 
+  color: var(--white);
+}
+
 
 /* Nav */
 .nav {
@@ -146,6 +151,9 @@ pre {
 }
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
+}
+.home :link{ 
+  color: var(--white);
 }
 .nav-item-active {
   font-weight: 700;

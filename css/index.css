@@ -133,7 +133,7 @@ pre {
 .home :link:not(:hover) {
   text-decoration: none;
 }
-.home :link{ 
+.home a[href]{ 
   color: var(--white);
 }
 
@@ -152,7 +152,7 @@ pre {
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
 }
-.home :link{ 
+.home a[href]{ 
   color: var(--white);
 }
 .nav-item-active {

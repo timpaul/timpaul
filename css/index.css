@@ -152,7 +152,7 @@ pre {
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
 }
-.home a[href]{ 
+.nav-item a[href]{ 
   color: var(--white);
 }
 .nav-item-active {
